@@ -93,7 +93,6 @@ public class UI_Fun {
 
 		public Stop() {
 			putValue(NAME, "Stop");
-			putValue(SHORT_DESCRIPTION, "Some short description");
 		}
 
 		@Override
@@ -110,7 +109,7 @@ public class UI_Fun {
 
 		public Start() {
 			putValue(NAME, "Start");
-			putValue(SHORT_DESCRIPTION, "Some short description");
+			
 		}
 
 		@Override
