@@ -119,7 +119,7 @@ public class UI_Fun {
 			try {
 				Timer = Integer.parseInt(textField.getText());
 
-				r.exec("shutdown -s -t "+ Timer);
+				r.exec("shutdown -s -t " + Timer * 60);
 
 			} catch (IOException e1) {
 				e1.printStackTrace();
